@@ -4,16 +4,13 @@ Questão de exercício sobre vetores em linguagem C.
  
 
  
- 
- 
- 
- 
- #include <stdio.h>
+     #include <stdio.h>
+    int main() {
+    int numeros[6] = { 42, -7, 23, 29, 0, 15 }, maior = numeros[1], menor = numeros[0]
+    
 
-int main() {
-    int numeros[6] = { 42, -7, 23, 29, 0, 15 }, maior = numeros[1], menor = numeros[0];
-
-    for (int i = 1; i < 6; i++) {
+ 
+     for (int i = 1; i < 6; i++) {
         if (numeros[i] > maior) {
             maior = numeros[i];
         }
